@@ -47,7 +47,7 @@ cat
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
-`file` as an argument - In `/home/`, outputs the file contents within the file input [ru.txt]. 
+`file` as an argument - In `/home/`, outputs the file contents within the file input `ru.txt`. 
 ```
 [user@sahara ~]$ cat ru.txt
 Привет

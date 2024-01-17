@@ -47,7 +47,7 @@ _directory_ as an argument - Error, In [/home/] command states that the argument
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
-_file_ as an argument - 
+_file_ as an argument - In [/home/], outputs the file contents within the file input [ru.txt]. 
 ```
 [user@sahara ~]$ cat ru.txt
 Привет

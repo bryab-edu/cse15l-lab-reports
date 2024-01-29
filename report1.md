@@ -2,7 +2,7 @@
 ## Using the `cd` command
 No arguments - Within `/home/lecture1/` directory, goes to previous directory `\home\`. Not an error.
 ```
-[user@sahara ~]$ cd
+[user@sahara ~/lecture1]$ cd
 [user@sahara ~]$ 
 ```
 _directory_ as an argument - changes directory from `/home/` to the current argument `/home/lecture1/`. Not an error.

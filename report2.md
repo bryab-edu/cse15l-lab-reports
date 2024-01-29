@@ -16,3 +16,4 @@ This page is also the result of the handleRequest method. The one argument being
 2. `msgUsr` the String list that helps represents the Query in which splits the username and message strings (Both: `yash` and `How are you`)
 3. `msg` the message String isolated `"How are you"`
 - `chatLogs` - the one modified String that acts as the database for all the messages being added, log is added (`yash: How are you`). Now that there's multiple logs, each log is split up by the formatting, using `%n` to put each new log onto the next line.
+## Part 2

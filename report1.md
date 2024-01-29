@@ -1,6 +1,6 @@
 # Lab Report 1 - Remote Access and FileSystem
 ## Using the `cd` command
-No arguments - nothing happens, no directory to change towards. Thus commands does nothing, not an error, waiting for argument. Not an error.
+No arguments - Within `/home/lecture1/` directory, goes to previous directory `\home\`. Not an error.
 ```
 [user@sahara ~]$ cd
 [user@sahara ~]$ 

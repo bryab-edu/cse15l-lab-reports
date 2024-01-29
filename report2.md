@@ -17,3 +17,6 @@ This page is also the result of the handleRequest method. The one argument being
 3. `msg` the message String isolated `"How are you"`
 - `chatLogs` - the one modified String that acts as the database for all the messages being added, log is added (`yash: How are you`). Now that there's multiple logs, each log is split up by the formatting, using `%n` to put each new log onto the next line.
 ## Part 2
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot1.PNG)
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot2.PNG)
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot3.PNG)

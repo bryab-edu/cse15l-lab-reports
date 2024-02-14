@@ -3,7 +3,7 @@
 ### Bug Input - Arrays with length greater than 1
 ```
 @Test
-  public void testReversedFilled(){
+  public void testReversedFilled(){ 
     int[] input2 = {1, 2, 3};
     int[] input2_reversed = {3, 2, 1};
     assertArrayEquals(input2_reversed, ArrayExamples.reversed(input2));    Expected [3] but was [0]
@@ -20,8 +20,15 @@
 
 
   @Test
-  public void testReversed() {
+  public void testReversed() {  <=== We'll focus on this one
     int[] input1 = { };
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+### JUnit Tests testReversed()
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/codeShot1.PNG)
+### The Code Bug
+Original Code
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot2.PNG)
+The bug of the method is it incorrectly copies values from the new empty array (which are all 0) onto the parameter array. Therefore, the array's values would all be replaced by 0.
+

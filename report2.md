@@ -23,6 +23,7 @@ This page is also the result of the handleRequest method. The one argument being
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot4.PNG)
 ### Executing ssh-keygen command to save public key (.pub file)
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot2.PNG)
+### Successfully logging in without password
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/terminalShot3.PNG)
 ## Part 3 - Week 2/3 Reflection
 I learned about a some of things during the past couple labs. I learned how to make a small Server online through localhost. I learned how to connect to my student account through the terminal. Most importantly, I leanred more on how to navigate and create on github, such as creating a repository and representing it through pages. 

@@ -26,7 +26,7 @@
   }
 ```
 ### JUnit Tests testReversed()
-#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report2files/codeShot1.PNG)
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot1.PNG)
 ### The Code Bug
 Original Code
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot2.PNG)

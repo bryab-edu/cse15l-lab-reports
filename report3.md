@@ -33,9 +33,11 @@
 The bug of the method is it incorrectly copies values from the new empty array (which are all 0) onto the parameter array. Therefore, the array's values would all be replaced by 0.
 #### Fixed Code
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot3.PNG)
-To fix this, we modify lines 17 and 19:
-Line 17: newArray[i] = arr[arr.length - 1 - i]; <== This accurately adds each element from the end of the array on to the newArray
+To fix this, we modify lines 17 and 19: <br>
+Line 17: newArray[i] = arr[arr.length - 1 - i]; <== This accurately adds each element from the end of the array on to the newArray <br>
 Line 19: return newArray; <== fixes the issue where despite creating a whole different array, the unchanged input array is returned
+#### Passed Tests
+#### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot4.PNG)
 
 
 

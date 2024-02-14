@@ -39,5 +39,61 @@ Line 19: return newArray; <== fixes the issue where despite creating a whole dif
 #### Passed Tests
 #### ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report3files/codeShot4.PNG)
 
-
+## Part 2 - Researching Commands `find`
+### The `find -size` command option [source](https://man7.org/linux/man-pages/man1/find.1.html)
+Example 1 <br>
+```
+$ find -size +200k
+./911report/chapter-13.4.txt
+./911report/chapter-13.5.txt
+./911report/chapter-3.txt
+./government/About_LSC/commission_report.txt
+./government/Env_Prot_Agen/bill.txt
+./government/Gen_Account_Office/d01591sp.txt
+./government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+./government/Gen_Account_Office/pe1019.txt
+./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+```
+Can search for files within working directory greater than the inputed requirements (+200k means files greater than 200 kilobytes). Good for finding which files take up most of the memory (e.g when downloading a repository)
+Example 2 <br>
+```
+$ find 911report/ -size -50k
+911report/
+911report/chapter-10.txt
+911report/preface.txt
+```
+Can search for files within a specific directory less than the inputed requirements (-10k means files less than 10 kilobytes). Good for filtering out specific files within a memory range.
+### The `find -readable` command option [source](https://man7.org/linux/man-pages/man1/find.1.html)
+Example 1 <br>
+```
+$ find 911report/ -readable
+911report/
+911report/chapter-1.txt
+911report/chapter-10.txt
+911report/chapter-11.txt
+911report/chapter-12.txt
+911report/chapter-13.1.txt
+911report/chapter-13.2.txt
+911report/chapter-13.3.txt
+911report/chapter-13.4.txt
+911report/chapter-13.5.txt
+911report/chapter-2.txt
+911report/chapter-3.txt
+911report/chapter-5.txt
+911report/chapter-6.txt
+911report/chapter-7.txt
+911report/chapter-8.txt
+911report/chapter-9.txt
+911report/preface.txt
+```
+Can search for files marked readable permissions to the current user in a specific directory. Good for filtering out files that can be read by the user. (i.e allowed permission files)
+```
+$ find -readable
+./911report/...
+./biomed/...
+./government/...
+./plos/...
+```
+^ this essentially printed all directories and files in the `pwd` <br>
+Can search for files marked readable permissions to the current user in the current directory.
 

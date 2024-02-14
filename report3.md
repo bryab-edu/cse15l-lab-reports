@@ -97,6 +97,7 @@ $ find -readable
 ```
 ^ given the circumstances, this essentially printed all directories and files in the `pwd` <br>
 Can search for files marked readable permissions to the current user in the current directory.
+
 ### The `find -name` command option [source](https://man7.org/linux/man-pages/man1/find.1.html)
 Example 1:
 ```
@@ -110,4 +111,46 @@ $ find -name chapter-1.txt
 ./911report/chapter-1.txt
 ```
 Can search (and is useful for trying to find) the inputted file given the name in the current directory. (also given the extension) <br> <br>
+
+### The `find -anewer` command option [source](https://man7.org/linux/man-pages/man1/find.1.html)
+Example 1:
+```
+$ find -anewer 911report/chapter-2.txt
+./plos/pmed.0020145.txt
+./plos/pmed.0020146.txt
+./plos/pmed.0020148.txt
+./plos/pmed.0020149.txt
+./plos/pmed.0020150.txt
+./plos/pmed.0020155.txt
+./plos/pmed.0020157.txt
+./plos/pmed.0020158.txt
+./plos/pmed.0020160.txt
+./plos/pmed.0020161.txt
+./plos/pmed.0020162.txt
+```
+^ this is a portion size of the output, includes files from other directories within `technical/` as well <br>
+Can search for files that have been accessed more recently than the the provided file. Good for measuring updates (outdated files, patches) of an apps contents <br> <br>
+Example 2:
+```
+$ find -anewer biomed/
+./plos/pmed.0020232.txt
+./plos/pmed.0020235.txt
+./plos/pmed.0020236.txt
+./plos/pmed.0020237.txt
+./plos/pmed.0020238.txt
+./plos/pmed.0020239.txt
+./plos/pmed.0020242.txt
+./plos/pmed.0020246.txt
+./plos/pmed.0020247.txt
+./plos/pmed.0020249.txt
+./plos/pmed.0020257.txt
+./plos/pmed.0020258.txt
+./plos/pmed.0020268.txt
+./plos/pmed.0020272.txt
+./plos/pmed.0020273.txt
+./plos/pmed.0020274.txt
+```
+^ sample size again <br> <br>
+Can search for files that have been accessed more recently than the provided directory. More general means of date comparison
+
 

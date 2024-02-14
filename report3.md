@@ -54,7 +54,7 @@ $ find -size +200k
 ./government/Gen_Account_Office/pe1019.txt
 ./government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
 ```
-Can search for files within working directory greater than the inputed requirements (+200k means files greater than 200 kilobytes). Good for finding which files take up most of the memory (e.g when downloading a repository)
+Can search for files within working directory greater than the inputed requirements (+200k means files greater than 200 kilobytes). Good for finding which files take up most of the memory (e.g when downloading a repository) <br> <br>
 Example 2 <br>
 ```
 $ find 911report/ -size -50k
@@ -86,7 +86,8 @@ $ find 911report/ -readable
 911report/chapter-9.txt
 911report/preface.txt
 ```
-Can search for files marked readable permissions to the current user in a specific directory. Good for filtering out files that can be read by the user. (i.e allowed permission files)
+Can search for files marked readable permissions to the current user in a specific directory. Good for filtering out files that can be read by the user. (i.e allowed permission files) <br> <br>
+Example 2 <br>
 ```
 $ find -readable
 ./911report/...
@@ -94,6 +95,19 @@ $ find -readable
 ./government/...
 ./plos/...
 ```
-^ this essentially printed all directories and files in the `pwd` <br>
+^ given the circumstances, this essentially printed all directories and files in the `pwd` <br>
 Can search for files marked readable permissions to the current user in the current directory.
+### The `find -name` command option [source](https://man7.org/linux/man-pages/man1/find.1.html)
+Example 1:
+```
+$ find -type d -name "biomed"
+./biomed
+```
+Can search (and is useful for trying to find) the inputted directory given the name in the current direcotry (type d for directory). <br> <br>
+Example 2:
+```
+$ find -name chapter-1.txt
+./911report/chapter-1.txt
+```
+Can search (and is useful for trying to find) the inputted file given the name in the current directory. (also given the extension) <br> <br>
 

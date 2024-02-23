@@ -48,6 +48,29 @@ Before
 ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot15.PNG)
 After (Press `<Ctrl+w>`)
 ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot16.PNG)
+### `<Alt+f>/<Alt+b>` - Goes back and forth by word
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot17.PNG)
+After (Press `<Alt+f>`) forward 1 word
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot18.PNG)
+After (Press `<Alt+f><Alt+f><Alt+f><Alt+f><Alt+f><Alt+f><Alt+f><Alt+f><Alt+f>`) forward 9 words
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot19.PNG)
+After (Press `<Alt+b>`) backwards 1 word
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot20.PNG)
+
+## 4. Quick Copy/Paste
+### Double Click and Triple Click Selections
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot17.PNG)
+After (Hover over word, Press `<LClick>``<LClick>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot21.PNG)
+After (Press `<LClick>``<LClick>``<LClick>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot22.PNG)
+### `<Alt+Shift+Left>`/ `<Alt+Shift+Right>` select multiple words
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot17.PNG)
+
+
 
 
 

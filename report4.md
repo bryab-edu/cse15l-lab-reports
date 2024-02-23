@@ -1,4 +1,4 @@
-# Lab Report 4
+# Lab Report 4 - VIM
 ## 1. Using Bash History (up/down arrows) <br />
 ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot1.PNG) <br /><br />
 In this first image I typed the commands `javac ListExmaples.java` and `java ListExamples` accordingly <br /><br />

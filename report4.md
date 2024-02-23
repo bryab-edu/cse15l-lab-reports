@@ -69,6 +69,16 @@ After (Press `<LClick>``<LClick>``<LClick>`)
 ### `<Alt+Shift+Left>`/ `<Alt+Shift+Right>` select multiple words
 Before
 ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot17.PNG)
+### `<Ctrl+c>` Copy
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot17.PNG)
+After (Hover over word, Press `<LClick>``<LClick>`, `<Ctrl+c>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot23.PNG)
+### `<Ctrl+v>` OR `<RClick> Paste
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot24.PNG)
+After (Press `<Ctrl+v>` OR `<RClick>)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot25.PNG)
 
 
 

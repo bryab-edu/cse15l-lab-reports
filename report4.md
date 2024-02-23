@@ -32,9 +32,22 @@ After (Press `<Ctrl+u>`) - Gone
 Before
 ![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot10.PNG)
 After (Press `<Ctrl+k>`)
-![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot10.PNG)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot11.PNG)
 ### `<Ctrl+a>` - Moves cursor to the beginning of the line
 Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot12.PNG)
+After (Press `<Ctrl+a>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot13.PNG)
+### `<Ctrl+e>` - Moves cursor to the end of the line
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot14.PNG)
+After (Press `<Ctrl+e>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot15.PNG)
+### `<Ctrl+w>` - Deletes the last word
+Before
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot15.PNG)
+After (Press `<Ctrl+w>`)
+![Image](https://bryab-edu.github.io/cse15l-lab-reports/report4files/bashscreenshot16.PNG)
 
 
 
